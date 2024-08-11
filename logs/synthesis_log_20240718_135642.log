@@ -1,0 +1,113 @@
+2024-07-18 13:56:42,753 - INFO - Starting vocalization synthesis program
+2024-07-18 13:56:42,790 - DEBUG - Initialized SynthesisEngine with vocalization labels: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:56:42,889 - INFO - Audio effects disabled
+2024-07-18 13:56:43,162 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_000
+2024-07-18 13:56:43,231 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:56:43,247 - DEBUG - Processing interval: 0.0 - 0.3925664861413823, label: N
+2024-07-18 13:56:43,251 - DEBUG - Added segment with label: N
+2024-07-18 13:56:43,269 - DEBUG - Processing interval: 0.3925664861413823 - 1.1804985910221697, label: PC
+2024-07-18 13:56:43,273 - DEBUG - Added segment with label: PC
+2024-07-18 13:56:43,283 - DEBUG - Processing interval: 1.1804985910221697 - 2.0024263038548753, label: N
+2024-07-18 13:56:43,314 - DEBUG - Added segment with label: N
+2024-07-18 13:56:43,318 - DEBUG - Processing interval: 2.0024263038548753 - 3.470426270831958, label: N
+2024-07-18 13:56:43,338 - DEBUG - Added segment with label: N
+2024-07-18 13:56:43,342 - DEBUG - Processing interval: 3.470426270831958 - 3.7259410430839, label: PC
+2024-07-18 13:56:43,397 - DEBUG - Added segment with label: PC
+2024-07-18 13:56:43,413 - DEBUG - Processing interval: 3.7259410430839 - 4.4366666666666665, label: N
+2024-07-18 13:56:43,435 - DEBUG - Added segment with label: N
+2024-07-18 13:56:43,468 - DEBUG - Processing interval: 4.4366666666666665 - 5.267896385091254, label: PC
+2024-07-18 13:56:43,472 - DEBUG - Added segment with label: PC
+2024-07-18 13:56:43,475 - DEBUG - Processing interval: 5.267896385091254 - 6.942517006802721, label: NC
+2024-07-18 13:56:43,494 - DEBUG - Added segment with label: NC
+2024-07-18 13:56:43,498 - DEBUG - Processing interval: 6.942517006802721 - 7.48421768707483, label: PC
+2024-07-18 13:56:43,513 - DEBUG - Added segment with label: PC
+2024-07-18 13:56:43,559 - DEBUG - Processing interval: 7.48421768707483 - 8.31326530612245, label: NC
+2024-07-18 13:56:43,576 - DEBUG - Added segment with label: NC
+2024-07-18 13:56:43,597 - DEBUG - Processing interval: 8.31326530612245 - 9.03299319727891, label: PC
+2024-07-18 13:56:43,601 - DEBUG - Added segment with label: PC
+2024-07-18 13:56:43,646 - DEBUG - Processing interval: 9.03299319727891 - 10.735918367346938, label: NC
+2024-07-18 13:56:43,650 - DEBUG - Added segment with label: NC
+2024-07-18 13:56:43,654 - DEBUG - Processing interval: 10.735918367346938 - 11.91390022675737, label: MC
+2024-07-18 13:56:43,656 - DEBUG - Added segment with label: MC
+2024-07-18 13:56:43,671 - DEBUG - Processing interval: 11.91390022675737 - 12.425283446712019, label: N
+2024-07-18 13:56:43,675 - DEBUG - Added segment with label: N
+2024-07-18 13:56:43,678 - DEBUG - Processing interval: 12.425283446712019 - 13.079160997732426, label: PC
+2024-07-18 13:56:43,681 - DEBUG - Added segment with label: PC
+2024-07-18 13:56:43,701 - DEBUG - Processing interval: 13.079160997732426 - 14.783673469387756, label: NC
+2024-07-18 13:56:43,727 - DEBUG - Added segment with label: NC
+2024-07-18 13:56:43,732 - DEBUG - Processing interval: 14.783673469387756 - 15.31374149659864, label: N
+2024-07-18 13:56:43,792 - DEBUG - Added segment with label: N
+2024-07-18 13:56:43,796 - DEBUG - Processing interval: 15.31374149659864 - 15.855734044426836, label: PC
+2024-07-18 13:56:43,811 - DEBUG - Added segment with label: PC
+2024-07-18 13:56:43,814 - DEBUG - Processing interval: 15.855734044426836 - 16.425351473922905, label: MC
+2024-07-18 13:56:43,832 - DEBUG - Added segment with label: MC
+2024-07-18 13:56:43,836 - DEBUG - Processing interval: 16.425351473922905 - 16.922834467120182, label: PC
+2024-07-18 13:56:43,840 - DEBUG - Added segment with label: PC
+2024-07-18 13:56:43,852 - DEBUG - Processing interval: 16.922834467120182 - 20.01560090702948, label: NC
+2024-07-18 13:56:43,855 - DEBUG - Added segment with label: NC
+2024-07-18 13:56:58,347 - INFO - Created synthetic file 1/5
+2024-07-18 13:56:58,582 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_002
+2024-07-18 13:56:58,597 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:56:58,608 - DEBUG - Processing interval: 0.0 - 1.369637188208617, label: N
+2024-07-18 13:56:58,611 - DEBUG - Added segment with label: N
+2024-07-18 13:56:58,642 - DEBUG - Processing interval: 1.369637188208617 - 18.076916099773246, label: NC
+2024-07-18 13:56:58,694 - DEBUG - Added segment with label: NC
+2024-07-18 13:56:58,716 - DEBUG - Processing interval: 18.076916099773246 - 20.01560090702948, label: N
+2024-07-18 13:56:58,731 - DEBUG - Added segment with label: N
+2024-07-18 13:57:07,632 - INFO - Created synthetic file 2/5
+2024-07-18 13:57:07,827 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_002
+2024-07-18 13:57:07,847 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:57:07,899 - DEBUG - Processing interval: 0.0 - 0.7420181405895692, label: NC
+2024-07-18 13:57:07,923 - DEBUG - Added segment with label: NC
+2024-07-18 13:57:20,452 - INFO - Created synthetic file 3/5
+2024-07-18 13:57:20,653 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_000
+2024-07-18 13:57:20,696 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:57:20,703 - DEBUG - Processing interval: 0.0 - 0.3925664861413823, label: N
+2024-07-18 13:57:20,715 - DEBUG - Added segment with label: N
+2024-07-18 13:57:20,720 - DEBUG - Processing interval: 0.3925664861413823 - 1.1804985910221697, label: PC
+2024-07-18 13:57:20,766 - DEBUG - Added segment with label: PC
+2024-07-18 13:57:20,786 - DEBUG - Processing interval: 1.1804985910221697 - 2.0024263038548753, label: N
+2024-07-18 13:57:20,791 - DEBUG - Added segment with label: N
+2024-07-18 13:57:20,814 - DEBUG - Processing interval: 2.0024263038548753 - 3.470426270831958, label: N
+2024-07-18 13:57:20,831 - DEBUG - Added segment with label: N
+2024-07-18 13:57:20,859 - DEBUG - Processing interval: 3.470426270831958 - 3.7259410430839, label: PC
+2024-07-18 13:57:20,865 - DEBUG - Added segment with label: PC
+2024-07-18 13:57:20,871 - DEBUG - Processing interval: 3.7259410430839 - 4.4366666666666665, label: N
+2024-07-18 13:57:20,948 - DEBUG - Added segment with label: N
+2024-07-18 13:57:20,971 - DEBUG - Processing interval: 4.4366666666666665 - 5.267896385091254, label: PC
+2024-07-18 13:57:21,035 - DEBUG - Added segment with label: PC
+2024-07-18 13:57:21,039 - DEBUG - Processing interval: 5.267896385091254 - 6.942517006802721, label: NC
+2024-07-18 13:57:21,057 - DEBUG - Added segment with label: NC
+2024-07-18 13:57:21,073 - DEBUG - Processing interval: 6.942517006802721 - 7.48421768707483, label: PC
+2024-07-18 13:57:21,110 - DEBUG - Added segment with label: PC
+2024-07-18 13:57:21,142 - DEBUG - Processing interval: 7.48421768707483 - 8.31326530612245, label: NC
+2024-07-18 13:57:21,188 - DEBUG - Added segment with label: NC
+2024-07-18 13:57:21,209 - DEBUG - Processing interval: 8.31326530612245 - 9.03299319727891, label: PC
+2024-07-18 13:57:21,214 - DEBUG - Added segment with label: PC
+2024-07-18 13:57:21,217 - DEBUG - Processing interval: 9.03299319727891 - 10.735918367346938, label: NC
+2024-07-18 13:57:21,220 - DEBUG - Added segment with label: NC
+2024-07-18 13:57:21,223 - DEBUG - Processing interval: 10.735918367346938 - 11.91390022675737, label: MC
+2024-07-18 13:57:21,226 - DEBUG - Added segment with label: MC
+2024-07-18 13:57:21,228 - DEBUG - Processing interval: 11.91390022675737 - 12.425283446712019, label: N
+2024-07-18 13:57:21,231 - DEBUG - Added segment with label: N
+2024-07-18 13:57:21,272 - DEBUG - Processing interval: 12.425283446712019 - 13.079160997732426, label: PC
+2024-07-18 13:57:21,304 - DEBUG - Added segment with label: PC
+2024-07-18 13:57:21,341 - DEBUG - Processing interval: 13.079160997732426 - 14.783673469387756, label: NC
+2024-07-18 13:57:21,345 - DEBUG - Added segment with label: NC
+2024-07-18 13:57:21,350 - DEBUG - Processing interval: 14.783673469387756 - 15.31374149659864, label: N
+2024-07-18 13:57:21,353 - DEBUG - Added segment with label: N
+2024-07-18 13:57:21,358 - DEBUG - Processing interval: 15.31374149659864 - 15.855734044426836, label: PC
+2024-07-18 13:57:21,360 - DEBUG - Added segment with label: PC
+2024-07-18 13:57:21,364 - DEBUG - Processing interval: 15.855734044426836 - 16.425351473922905, label: MC
+2024-07-18 13:57:21,366 - DEBUG - Added segment with label: MC
+2024-07-18 13:57:21,435 - DEBUG - Processing interval: 16.425351473922905 - 16.922834467120182, label: PC
+2024-07-18 13:57:21,439 - DEBUG - Added segment with label: PC
+2024-07-18 13:57:21,496 - DEBUG - Processing interval: 16.922834467120182 - 20.01560090702948, label: NC
+2024-07-18 13:57:21,501 - DEBUG - Added segment with label: NC
+2024-07-18 13:57:35,060 - INFO - Created synthetic file 4/5
+2024-07-18 13:57:35,219 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_002
+2024-07-18 13:57:35,234 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:57:35,236 - DEBUG - Processing interval: 0.0 - 0.7420181405895692, label: NC
+2024-07-18 13:57:35,277 - DEBUG - Added segment with label: NC
+2024-07-18 13:57:47,562 - INFO - Created synthetic file 5/5
+2024-07-18 13:57:47,567 - INFO - Vocalization synthesis complete

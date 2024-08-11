@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 19.99238095238095 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "donated" 
+        xmin = 0 
+        xmax = 19.99238095238095 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.9058503401360545 
+            text = "NC" 
+        intervals [2]:
+            xmin = 0.9058503401360545 
+            xmax = 1.1118367346938776 
+            text = "PC" 
+        intervals [3]:
+            xmin = 1.1118367346938776 
+            xmax = 1.9011337868480727 
+            text = "N" 
+        intervals [4]:
+            xmin = 1.9011337868480727 
+            xmax = 2.248390022675737 
+            text = "PC" 
+        intervals [5]:
+            xmin = 2.248390022675737 
+            xmax = 3.6774829931972786 
+            text = "NC" 
+        intervals [6]:
+            xmin = 3.6774829931972786 
+            xmax = 4.184807256235827 
+            text = "MC" 
+        intervals [7]:
+            xmin = 4.184807256235827 
+            xmax = 4.833492063492064 
+            text = "NC" 
+        intervals [8]:
+            xmin = 4.833492063492064 
+            xmax = 5.632267573696145 
+            text = " NC" 
+        intervals [9]:
+            xmin = 5.632267573696145 
+            xmax = 6.137777777777778 
+            text = "MC" 
+        intervals [10]:
+            xmin = 6.137777777777778 
+            xmax = 6.922063492063492 
+            text = "PC" 
+        intervals [11]:
+            xmin = 6.922063492063492 
+            xmax = 12.505532879818594 
+            text = "NC" 
+        intervals [12]:
+            xmin = 12.505532879818594 
+            xmax = 13.642517006802722 
+            text = "PC" 
+        intervals [13]:
+            xmin = 13.642517006802722 
+            xmax = 16.27167800453515 
+            text = "NC" 
+        intervals [14]:
+            xmin = 16.27167800453515 
+            xmax = 17.06759637188209 
+            text = "PC" 
+        intervals [15]:
+            xmin = 17.06759637188209 
+            xmax = 19.99238095238095 
+            text = "NC" 

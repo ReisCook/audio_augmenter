@@ -1,0 +1,98 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 20.01560090702948 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "(1280p_30fps_H264-192kbit_AAC)_segment_000" 
+        xmin = 0 
+        xmax = 20.01560090702948 
+        intervals: size = 21 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.3925664861413823 
+            text = "N" 
+        intervals [2]:
+            xmin = 0.3925664861413823 
+            xmax = 1.1804985910221697 
+            text = "PC" 
+        intervals [3]:
+            xmin = 1.1804985910221697 
+            xmax = 2.0024263038548753 
+            text = "N" 
+        intervals [4]:
+            xmin = 2.0024263038548753 
+            xmax = 3.470426270831958 
+            text = "N" 
+        intervals [5]:
+            xmin = 3.470426270831958 
+            xmax = 3.7259410430839 
+            text = "PC" 
+        intervals [6]:
+            xmin = 3.7259410430839 
+            xmax = 4.4366666666666665 
+            text = "N" 
+        intervals [7]:
+            xmin = 4.4366666666666665 
+            xmax = 5.267896385091254 
+            text = "PC" 
+        intervals [8]:
+            xmin = 5.267896385091254 
+            xmax = 6.942517006802721 
+            text = "NC" 
+        intervals [9]:
+            xmin = 6.942517006802721 
+            xmax = 7.48421768707483 
+            text = "PC" 
+        intervals [10]:
+            xmin = 7.48421768707483 
+            xmax = 8.31326530612245 
+            text = "NC" 
+        intervals [11]:
+            xmin = 8.31326530612245 
+            xmax = 9.03299319727891 
+            text = "PC" 
+        intervals [12]:
+            xmin = 9.03299319727891 
+            xmax = 10.735918367346938 
+            text = "NC" 
+        intervals [13]:
+            xmin = 10.735918367346938 
+            xmax = 11.91390022675737 
+            text = "MC" 
+        intervals [14]:
+            xmin = 11.91390022675737 
+            xmax = 12.425283446712019 
+            text = "N" 
+        intervals [15]:
+            xmin = 12.425283446712019 
+            xmax = 13.079160997732426 
+            text = "PC" 
+        intervals [16]:
+            xmin = 13.079160997732426 
+            xmax = 14.783673469387756 
+            text = "NC" 
+        intervals [17]:
+            xmin = 14.783673469387756 
+            xmax = 15.31374149659864 
+            text = "N" 
+        intervals [18]:
+            xmin = 15.31374149659864 
+            xmax = 15.855734044426836 
+            text = "PC" 
+        intervals [19]:
+            xmin = 15.855734044426836 
+            xmax = 16.425351473922905 
+            text = "MC" 
+        intervals [20]:
+            xmin = 16.425351473922905 
+            xmax = 16.922834467120182 
+            text = "PC" 
+        intervals [21]:
+            xmin = 16.922834467120182 
+            xmax = 20.01560090702948 
+            text = "NC" 

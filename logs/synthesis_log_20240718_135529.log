@@ -1,0 +1,9 @@
+2024-07-18 13:55:29,201 - INFO - Starting vocalization synthesis program
+2024-07-18 13:55:29,225 - DEBUG - Initialized SynthesisEngine with vocalization labels: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:55:29,310 - INFO - Audio effects disabled
+2024-07-18 13:55:29,354 - ERROR - Error creating synthetic file 1: 'SynthesisEngine' object has no attribute 'select_random_file'
+2024-07-18 13:55:29,383 - ERROR - Error creating synthetic file 2: 'SynthesisEngine' object has no attribute 'select_random_file'
+2024-07-18 13:55:29,385 - ERROR - Error creating synthetic file 3: 'SynthesisEngine' object has no attribute 'select_random_file'
+2024-07-18 13:55:29,387 - ERROR - Error creating synthetic file 4: 'SynthesisEngine' object has no attribute 'select_random_file'
+2024-07-18 13:55:29,388 - ERROR - Error creating synthetic file 5: 'SynthesisEngine' object has no attribute 'select_random_file'
+2024-07-18 13:55:29,390 - INFO - Vocalization synthesis complete

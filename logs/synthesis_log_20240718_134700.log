@@ -1,0 +1,157 @@
+2024-07-18 13:47:00,348 - INFO - Starting vocalization synthesis program
+2024-07-18 13:47:00,353 - DEBUG - Initialized SynthesisEngine with vocalization labels: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:47:00,515 - INFO - Audio effects disabled
+2024-07-18 13:47:00,725 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_000
+2024-07-18 13:47:00,729 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:47:00,774 - DEBUG - Processing interval: 0.0 - 0.3925664861413823, label: N
+2024-07-18 13:47:00,777 - DEBUG - Added segment with label: N
+2024-07-18 13:47:00,811 - DEBUG - Processing interval: 0.3925664861413823 - 1.1804985910221697, label: PC
+2024-07-18 13:47:00,814 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:00,817 - DEBUG - Processing interval: 1.1804985910221697 - 2.0024263038548753, label: N
+2024-07-18 13:47:00,820 - DEBUG - Added segment with label: N
+2024-07-18 13:47:00,837 - DEBUG - Processing interval: 2.0024263038548753 - 3.470426270831958, label: N
+2024-07-18 13:47:00,842 - DEBUG - Added segment with label: N
+2024-07-18 13:47:00,845 - DEBUG - Processing interval: 3.470426270831958 - 3.7259410430839, label: PC
+2024-07-18 13:47:00,847 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:00,858 - DEBUG - Processing interval: 3.7259410430839 - 4.4366666666666665, label: N
+2024-07-18 13:47:00,861 - DEBUG - Added segment with label: N
+2024-07-18 13:47:00,924 - DEBUG - Processing interval: 4.4366666666666665 - 5.267896385091254, label: PC
+2024-07-18 13:47:00,931 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:00,944 - DEBUG - Processing interval: 5.267896385091254 - 6.942517006802721, label: NC
+2024-07-18 13:47:00,948 - DEBUG - Added segment with label: NC
+2024-07-18 13:47:00,975 - DEBUG - Processing interval: 6.942517006802721 - 7.48421768707483, label: PC
+2024-07-18 13:47:00,979 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:00,983 - DEBUG - Processing interval: 7.48421768707483 - 8.31326530612245, label: NC
+2024-07-18 13:47:01,005 - DEBUG - Added segment with label: NC
+2024-07-18 13:47:01,009 - DEBUG - Processing interval: 8.31326530612245 - 9.03299319727891, label: PC
+2024-07-18 13:47:01,013 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:01,062 - DEBUG - Processing interval: 9.03299319727891 - 10.735918367346938, label: NC
+2024-07-18 13:47:01,066 - DEBUG - Added segment with label: NC
+2024-07-18 13:47:01,097 - DEBUG - Processing interval: 10.735918367346938 - 11.91390022675737, label: MC
+2024-07-18 13:47:01,102 - DEBUG - Added segment with label: MC
+2024-07-18 13:47:01,113 - DEBUG - Processing interval: 11.91390022675737 - 12.425283446712019, label: N
+2024-07-18 13:47:01,127 - DEBUG - Added segment with label: N
+2024-07-18 13:47:01,142 - DEBUG - Processing interval: 12.425283446712019 - 13.079160997732426, label: PC
+2024-07-18 13:47:01,172 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:01,186 - DEBUG - Processing interval: 13.079160997732426 - 14.783673469387756, label: NC
+2024-07-18 13:47:01,219 - DEBUG - Added segment with label: NC
+2024-07-18 13:47:01,261 - DEBUG - Processing interval: 14.783673469387756 - 15.31374149659864, label: N
+2024-07-18 13:47:01,266 - DEBUG - Added segment with label: N
+2024-07-18 13:47:01,295 - DEBUG - Processing interval: 15.31374149659864 - 15.855734044426836, label: PC
+2024-07-18 13:47:01,300 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:01,330 - DEBUG - Processing interval: 15.855734044426836 - 16.425351473922905, label: MC
+2024-07-18 13:47:01,335 - DEBUG - Added segment with label: MC
+2024-07-18 13:47:01,366 - DEBUG - Processing interval: 16.425351473922905 - 16.922834467120182, label: PC
+2024-07-18 13:47:01,370 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:01,385 - DEBUG - Processing interval: 16.922834467120182 - 20.01560090702948, label: NC
+2024-07-18 13:47:01,389 - DEBUG - Added segment with label: NC
+2024-07-18 13:47:01,416 - ERROR - Error in synthesize_single: operands could not be broadcast together with shapes (23889,) (23889,2) (23889,) 
+2024-07-18 13:47:01,508 - ERROR - Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 52, in synthesize_single
+    mixed_audio = self.mix_segments(selected_segments, overlap_end - overlap_start, amplitude_scaling)
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 129, in mix_segments
+    mixed_audio[start:end] += segment_audio[:end-start] * amplitude_scaling * self.random.uniform(0.8, 1.0)
+ValueError: operands could not be broadcast together with shapes (23889,) (23889,2) (23889,) 
+
+2024-07-18 13:47:01,512 - ERROR - Error creating synthetic file 1: tuple index out of range
+2024-07-18 13:47:01,653 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_002
+2024-07-18 13:47:01,655 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:47:01,687 - DEBUG - Processing interval: 0.0 - 0.7420181405895692, label: NC
+2024-07-18 13:47:01,730 - DEBUG - Added segment with label: NC
+2024-07-18 13:47:01,750 - ERROR - Error in synthesize_single: operands could not be broadcast together with shapes (32723,) (32723,2) (32723,) 
+2024-07-18 13:47:01,769 - ERROR - Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 52, in synthesize_single
+    mixed_audio = self.mix_segments(selected_segments, overlap_end - overlap_start, amplitude_scaling)
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 129, in mix_segments
+    mixed_audio[start:end] += segment_audio[:end-start] * amplitude_scaling * self.random.uniform(0.8, 1.0)
+ValueError: operands could not be broadcast together with shapes (32723,) (32723,2) (32723,) 
+
+2024-07-18 13:47:01,774 - ERROR - Error creating synthetic file 2: tuple index out of range
+2024-07-18 13:47:01,970 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_002
+2024-07-18 13:47:01,973 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:47:01,977 - DEBUG - Processing interval: 0.0 - 1.369637188208617, label: N
+2024-07-18 13:47:01,993 - DEBUG - Added segment with label: N
+2024-07-18 13:47:02,037 - DEBUG - Processing interval: 1.369637188208617 - 18.076916099773246, label: NC
+2024-07-18 13:47:02,067 - DEBUG - Added segment with label: NC
+2024-07-18 13:47:02,071 - DEBUG - Processing interval: 18.076916099773246 - 20.01560090702948, label: N
+2024-07-18 13:47:02,075 - DEBUG - Added segment with label: N
+2024-07-18 13:47:02,119 - ERROR - Error in synthesize_single: operands could not be broadcast together with shapes (736791,) (736791,2) (736791,) 
+2024-07-18 13:47:02,153 - ERROR - Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 52, in synthesize_single
+    mixed_audio = self.mix_segments(selected_segments, overlap_end - overlap_start, amplitude_scaling)
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 129, in mix_segments
+    mixed_audio[start:end] += segment_audio[:end-start] * amplitude_scaling * self.random.uniform(0.8, 1.0)
+ValueError: operands could not be broadcast together with shapes (736791,) (736791,2) (736791,) 
+
+2024-07-18 13:47:02,159 - ERROR - Error creating synthetic file 3: tuple index out of range
+2024-07-18 13:47:02,444 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_002
+2024-07-18 13:47:02,450 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:47:02,454 - DEBUG - Processing interval: 0.0 - 1.369637188208617, label: N
+2024-07-18 13:47:02,458 - DEBUG - Added segment with label: N
+2024-07-18 13:47:02,463 - DEBUG - Processing interval: 1.369637188208617 - 18.076916099773246, label: NC
+2024-07-18 13:47:02,479 - DEBUG - Added segment with label: NC
+2024-07-18 13:47:02,483 - DEBUG - Processing interval: 18.076916099773246 - 20.01560090702948, label: N
+2024-07-18 13:47:02,486 - DEBUG - Added segment with label: N
+2024-07-18 13:47:02,515 - ERROR - Error in synthesize_single: operands could not be broadcast together with shapes (60401,) (60401,2) (60401,) 
+2024-07-18 13:47:02,563 - ERROR - Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 52, in synthesize_single
+    mixed_audio = self.mix_segments(selected_segments, overlap_end - overlap_start, amplitude_scaling)
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 129, in mix_segments
+    mixed_audio[start:end] += segment_audio[:end-start] * amplitude_scaling * self.random.uniform(0.8, 1.0)
+ValueError: operands could not be broadcast together with shapes (60401,) (60401,2) (60401,) 
+
+2024-07-18 13:47:02,566 - ERROR - Error creating synthetic file 4: tuple index out of range
+2024-07-18 13:47:02,832 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_000
+2024-07-18 13:47:02,837 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:47:02,858 - DEBUG - Processing interval: 0.0 - 0.3925664861413823, label: N
+2024-07-18 13:47:02,863 - DEBUG - Added segment with label: N
+2024-07-18 13:47:02,868 - DEBUG - Processing interval: 0.3925664861413823 - 1.1804985910221697, label: PC
+2024-07-18 13:47:02,908 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:02,913 - DEBUG - Processing interval: 1.1804985910221697 - 2.0024263038548753, label: N
+2024-07-18 13:47:02,919 - DEBUG - Added segment with label: N
+2024-07-18 13:47:02,924 - DEBUG - Processing interval: 2.0024263038548753 - 3.470426270831958, label: N
+2024-07-18 13:47:02,940 - DEBUG - Added segment with label: N
+2024-07-18 13:47:02,978 - DEBUG - Processing interval: 3.470426270831958 - 3.7259410430839, label: PC
+2024-07-18 13:47:02,983 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:02,988 - DEBUG - Processing interval: 3.7259410430839 - 4.4366666666666665, label: N
+2024-07-18 13:47:02,993 - DEBUG - Added segment with label: N
+2024-07-18 13:47:02,996 - DEBUG - Processing interval: 4.4366666666666665 - 5.267896385091254, label: PC
+2024-07-18 13:47:03,012 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:03,015 - DEBUG - Processing interval: 5.267896385091254 - 6.942517006802721, label: NC
+2024-07-18 13:47:03,017 - DEBUG - Added segment with label: NC
+2024-07-18 13:47:03,020 - DEBUG - Processing interval: 6.942517006802721 - 7.48421768707483, label: PC
+2024-07-18 13:47:03,021 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:03,054 - DEBUG - Processing interval: 7.48421768707483 - 8.31326530612245, label: NC
+2024-07-18 13:47:03,096 - DEBUG - Added segment with label: NC
+2024-07-18 13:47:03,110 - DEBUG - Processing interval: 8.31326530612245 - 9.03299319727891, label: PC
+2024-07-18 13:47:03,115 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:03,129 - DEBUG - Processing interval: 9.03299319727891 - 10.735918367346938, label: NC
+2024-07-18 13:47:03,150 - DEBUG - Added segment with label: NC
+2024-07-18 13:47:03,180 - DEBUG - Processing interval: 10.735918367346938 - 11.91390022675737, label: MC
+2024-07-18 13:47:03,213 - DEBUG - Added segment with label: MC
+2024-07-18 13:47:03,217 - DEBUG - Processing interval: 11.91390022675737 - 12.425283446712019, label: N
+2024-07-18 13:47:03,221 - DEBUG - Added segment with label: N
+2024-07-18 13:47:03,266 - DEBUG - Processing interval: 12.425283446712019 - 13.079160997732426, label: PC
+2024-07-18 13:47:03,270 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:03,274 - DEBUG - Processing interval: 13.079160997732426 - 14.783673469387756, label: NC
+2024-07-18 13:47:03,287 - DEBUG - Added segment with label: NC
+2024-07-18 13:47:03,291 - DEBUG - Processing interval: 14.783673469387756 - 15.31374149659864, label: N
+2024-07-18 13:47:03,313 - DEBUG - Added segment with label: N
+2024-07-18 13:47:03,323 - DEBUG - Processing interval: 15.31374149659864 - 15.855734044426836, label: PC
+2024-07-18 13:47:03,338 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:03,339 - DEBUG - Processing interval: 15.855734044426836 - 16.425351473922905, label: MC
+2024-07-18 13:47:03,340 - DEBUG - Added segment with label: MC
+2024-07-18 13:47:03,340 - DEBUG - Processing interval: 16.425351473922905 - 16.922834467120182, label: PC
+2024-07-18 13:47:03,340 - DEBUG - Added segment with label: PC
+2024-07-18 13:47:03,341 - DEBUG - Processing interval: 16.922834467120182 - 20.01560090702948, label: NC
+2024-07-18 13:47:03,341 - DEBUG - Added segment with label: NC
+2024-07-18 13:47:03,343 - ERROR - Error in synthesize_single: operands could not be broadcast together with shapes (73851,) (73851,2) (73851,) 
+2024-07-18 13:47:03,360 - ERROR - Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 52, in synthesize_single
+    mixed_audio = self.mix_segments(selected_segments, overlap_end - overlap_start, amplitude_scaling)
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 129, in mix_segments
+    mixed_audio[start:end] += segment_audio[:end-start] * amplitude_scaling * self.random.uniform(0.8, 1.0)
+ValueError: operands could not be broadcast together with shapes (73851,) (73851,2) (73851,) 
+
+2024-07-18 13:47:03,393 - ERROR - Error creating synthetic file 5: tuple index out of range
+2024-07-18 13:47:03,458 - INFO - Vocalization synthesis complete

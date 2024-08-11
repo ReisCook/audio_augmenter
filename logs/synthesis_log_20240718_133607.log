@@ -1,0 +1,74 @@
+2024-07-18 13:36:07,402 - INFO - Starting vocalization synthesis program
+2024-07-18 13:36:07,492 - INFO - Audio effects disabled
+2024-07-18 13:36:07,691 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,706 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,734 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,737 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,816 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,852 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,865 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,872 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,886 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,911 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,914 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,929 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,946 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,949 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,977 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,981 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:07,985 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,029 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,036 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,042 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,065 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,070 - WARNING - No valid segments found in the TextGrid file.
+2024-07-18 13:36:08,091 - ERROR - Error creating synthetic file 1: max() arg is an empty sequence
+2024-07-18 13:36:08,288 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,334 - WARNING - No valid segments found in the TextGrid file.
+2024-07-18 13:36:08,383 - ERROR - Error creating synthetic file 2: max() arg is an empty sequence
+2024-07-18 13:36:08,707 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,741 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,773 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,795 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,878 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,882 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,885 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,889 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,892 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,896 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,916 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,967 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,972 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,977 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,994 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:08,998 - WARNING - No valid segments found in the TextGrid file.
+2024-07-18 13:36:09,033 - ERROR - Error creating synthetic file 3: max() arg is an empty sequence
+2024-07-18 13:36:09,270 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,287 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,289 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,307 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,311 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,327 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,356 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,383 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,401 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,445 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,499 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,534 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,569 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,588 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,606 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,610 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,672 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,677 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,680 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,724 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,729 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:09,749 - WARNING - No valid segments found in the TextGrid file.
+2024-07-18 13:36:09,756 - ERROR - Error creating synthetic file 4: max() arg is an empty sequence
+2024-07-18 13:36:09,985 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:10,050 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:36:10,066 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:36:10,069 - WARNING - No valid segments found in the TextGrid file.
+2024-07-18 13:36:10,074 - ERROR - Error creating synthetic file 5: max() arg is an empty sequence
+2024-07-18 13:36:10,077 - INFO - Vocalization synthesis complete

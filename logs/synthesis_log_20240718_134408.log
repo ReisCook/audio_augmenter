@@ -1,0 +1,175 @@
+2024-07-18 13:44:09,064 - INFO - Starting vocalization synthesis program
+2024-07-18 13:44:09,070 - DEBUG - Initialized SynthesisEngine with vocalization labels: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:44:09,143 - INFO - Audio effects disabled
+2024-07-18 13:44:09,302 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_000
+2024-07-18 13:44:09,335 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:44:09,355 - DEBUG - Processing interval: 0.0 - 0.3925664861413823, label: N
+2024-07-18 13:44:09,397 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:09,475 - DEBUG - Processing interval: 0.3925664861413823 - 1.1804985910221697, label: PC
+2024-07-18 13:44:09,535 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:09,619 - DEBUG - Processing interval: 1.1804985910221697 - 2.0024263038548753, label: N
+2024-07-18 13:44:09,679 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:09,713 - DEBUG - Processing interval: 2.0024263038548753 - 3.470426270831958, label: N
+2024-07-18 13:44:09,765 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:09,816 - DEBUG - Processing interval: 3.470426270831958 - 3.7259410430839, label: PC
+2024-07-18 13:44:09,822 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:09,827 - DEBUG - Processing interval: 3.7259410430839 - 4.4366666666666665, label: N
+2024-07-18 13:44:09,832 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:09,836 - DEBUG - Processing interval: 4.4366666666666665 - 5.267896385091254, label: PC
+2024-07-18 13:44:09,856 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:09,910 - DEBUG - Processing interval: 5.267896385091254 - 6.942517006802721, label: NC
+2024-07-18 13:44:09,913 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:09,917 - DEBUG - Processing interval: 6.942517006802721 - 7.48421768707483, label: PC
+2024-07-18 13:44:09,920 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:09,939 - DEBUG - Processing interval: 7.48421768707483 - 8.31326530612245, label: NC
+2024-07-18 13:44:09,942 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:09,959 - DEBUG - Processing interval: 8.31326530612245 - 9.03299319727891, label: PC
+2024-07-18 13:44:09,963 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:09,976 - DEBUG - Processing interval: 9.03299319727891 - 10.735918367346938, label: NC
+2024-07-18 13:44:10,004 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:10,064 - DEBUG - Processing interval: 10.735918367346938 - 11.91390022675737, label: MC
+2024-07-18 13:44:10,120 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:10,187 - DEBUG - Processing interval: 11.91390022675737 - 12.425283446712019, label: N
+2024-07-18 13:44:10,205 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:10,287 - DEBUG - Processing interval: 12.425283446712019 - 13.079160997732426, label: PC
+2024-07-18 13:44:10,316 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:10,321 - DEBUG - Processing interval: 13.079160997732426 - 14.783673469387756, label: NC
+2024-07-18 13:44:10,326 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:10,331 - DEBUG - Processing interval: 14.783673469387756 - 15.31374149659864, label: N
+2024-07-18 13:44:10,336 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:10,340 - DEBUG - Processing interval: 15.31374149659864 - 15.855734044426836, label: PC
+2024-07-18 13:44:10,345 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:10,364 - DEBUG - Processing interval: 15.855734044426836 - 16.425351473922905, label: MC
+2024-07-18 13:44:10,407 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:10,444 - DEBUG - Processing interval: 16.425351473922905 - 16.922834467120182, label: PC
+2024-07-18 13:44:10,450 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:10,455 - DEBUG - Processing interval: 16.922834467120182 - 20.01560090702948, label: NC
+2024-07-18 13:44:10,480 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:10,486 - WARNING - No valid segments found in the TextGrid file.
+2024-07-18 13:44:10,500 - WARNING - No valid segments found. Skipping this file.
+2024-07-18 13:44:10,504 - ERROR - Error creating synthetic file 1: tuple index out of range
+2024-07-18 13:44:10,879 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_000
+2024-07-18 13:44:10,899 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:44:10,930 - DEBUG - Processing interval: 0.0 - 0.3925664861413823, label: N
+2024-07-18 13:44:10,965 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,033 - DEBUG - Processing interval: 0.3925664861413823 - 1.1804985910221697, label: PC
+2024-07-18 13:44:11,051 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,055 - DEBUG - Processing interval: 1.1804985910221697 - 2.0024263038548753, label: N
+2024-07-18 13:44:11,058 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,074 - DEBUG - Processing interval: 2.0024263038548753 - 3.470426270831958, label: N
+2024-07-18 13:44:11,078 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,081 - DEBUG - Processing interval: 3.470426270831958 - 3.7259410430839, label: PC
+2024-07-18 13:44:11,084 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,156 - DEBUG - Processing interval: 3.7259410430839 - 4.4366666666666665, label: N
+2024-07-18 13:44:11,185 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,209 - DEBUG - Processing interval: 4.4366666666666665 - 5.267896385091254, label: PC
+2024-07-18 13:44:11,246 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,251 - DEBUG - Processing interval: 5.267896385091254 - 6.942517006802721, label: NC
+2024-07-18 13:44:11,256 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,261 - DEBUG - Processing interval: 6.942517006802721 - 7.48421768707483, label: PC
+2024-07-18 13:44:11,265 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,285 - DEBUG - Processing interval: 7.48421768707483 - 8.31326530612245, label: NC
+2024-07-18 13:44:11,295 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,333 - DEBUG - Processing interval: 8.31326530612245 - 9.03299319727891, label: PC
+2024-07-18 13:44:11,337 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,363 - DEBUG - Processing interval: 9.03299319727891 - 10.735918367346938, label: NC
+2024-07-18 13:44:11,368 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,399 - DEBUG - Processing interval: 10.735918367346938 - 11.91390022675737, label: MC
+2024-07-18 13:44:11,405 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,410 - DEBUG - Processing interval: 11.91390022675737 - 12.425283446712019, label: N
+2024-07-18 13:44:11,414 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,418 - DEBUG - Processing interval: 12.425283446712019 - 13.079160997732426, label: PC
+2024-07-18 13:44:11,430 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,434 - DEBUG - Processing interval: 13.079160997732426 - 14.783673469387756, label: NC
+2024-07-18 13:44:11,462 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,467 - DEBUG - Processing interval: 14.783673469387756 - 15.31374149659864, label: N
+2024-07-18 13:44:11,470 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,499 - DEBUG - Processing interval: 15.31374149659864 - 15.855734044426836, label: PC
+2024-07-18 13:44:11,504 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,507 - DEBUG - Processing interval: 15.855734044426836 - 16.425351473922905, label: MC
+2024-07-18 13:44:11,532 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,550 - DEBUG - Processing interval: 16.425351473922905 - 16.922834467120182, label: PC
+2024-07-18 13:44:11,555 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,570 - DEBUG - Processing interval: 16.922834467120182 - 20.01560090702948, label: NC
+2024-07-18 13:44:11,616 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,620 - WARNING - No valid segments found in the TextGrid file.
+2024-07-18 13:44:11,663 - WARNING - No valid segments found. Skipping this file.
+2024-07-18 13:44:11,668 - ERROR - Error creating synthetic file 2: tuple index out of range
+2024-07-18 13:44:11,876 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_002
+2024-07-18 13:44:11,908 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:44:11,914 - DEBUG - Processing interval: 0.0 - 0.7420181405895692, label: NC
+2024-07-18 13:44:11,918 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:11,939 - WARNING - No valid segments found in the TextGrid file.
+2024-07-18 13:44:11,976 - WARNING - No valid segments found. Skipping this file.
+2024-07-18 13:44:11,981 - ERROR - Error creating synthetic file 3: tuple index out of range
+2024-07-18 13:44:12,189 - DEBUG - Processing tier: donated
+2024-07-18 13:44:12,195 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:44:12,219 - DEBUG - Processing interval: 0.0 - 0.9058503401360545, label: NC
+2024-07-18 13:44:12,223 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,228 - DEBUG - Processing interval: 0.9058503401360545 - 1.1118367346938776, label: PC
+2024-07-18 13:44:12,254 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,258 - DEBUG - Processing interval: 1.1118367346938776 - 1.9011337868480727, label: N
+2024-07-18 13:44:12,284 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,318 - DEBUG - Processing interval: 1.9011337868480727 - 2.248390022675737, label: PC
+2024-07-18 13:44:12,323 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,327 - DEBUG - Processing interval: 2.248390022675737 - 3.6774829931972786, label: NC
+2024-07-18 13:44:12,331 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,355 - DEBUG - Processing interval: 3.6774829931972786 - 4.184807256235827, label: MC
+2024-07-18 13:44:12,360 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,364 - DEBUG - Processing interval: 4.184807256235827 - 4.833492063492064, label: NC
+2024-07-18 13:44:12,382 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,386 - DEBUG - Processing interval: 4.833492063492064 - 5.632267573696145, label: NC
+2024-07-18 13:44:12,390 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,420 - DEBUG - Processing interval: 5.632267573696145 - 6.137777777777778, label: MC
+2024-07-18 13:44:12,424 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,428 - DEBUG - Processing interval: 6.137777777777778 - 6.922063492063492, label: PC
+2024-07-18 13:44:12,454 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,459 - DEBUG - Processing interval: 6.922063492063492 - 12.505532879818594, label: NC
+2024-07-18 13:44:12,464 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,511 - DEBUG - Processing interval: 12.505532879818594 - 13.642517006802722, label: PC
+2024-07-18 13:44:12,514 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,517 - DEBUG - Processing interval: 13.642517006802722 - 16.27167800453515, label: NC
+2024-07-18 13:44:12,519 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,522 - DEBUG - Processing interval: 16.27167800453515 - 17.06759637188209, label: PC
+2024-07-18 13:44:12,525 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,528 - DEBUG - Processing interval: 17.06759637188209 - 19.99238095238095, label: NC
+2024-07-18 13:44:12,558 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,607 - WARNING - No valid segments found in the TextGrid file.
+2024-07-18 13:44:12,610 - WARNING - No valid segments found. Skipping this file.
+2024-07-18 13:44:12,649 - ERROR - Error creating synthetic file 4: tuple index out of range
+2024-07-18 13:44:12,909 - DEBUG - Processing tier: donated
+2024-07-18 13:44:12,926 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:44:12,980 - DEBUG - Processing interval: 0.0 - 0.9058503401360545, label: NC
+2024-07-18 13:44:12,984 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:12,996 - DEBUG - Processing interval: 0.9058503401360545 - 1.1118367346938776, label: PC
+2024-07-18 13:44:13,029 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,049 - DEBUG - Processing interval: 1.1118367346938776 - 1.9011337868480727, label: N
+2024-07-18 13:44:13,053 - WARNING - Unrecognized label 'N' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,056 - DEBUG - Processing interval: 1.9011337868480727 - 2.248390022675737, label: PC
+2024-07-18 13:44:13,082 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,107 - DEBUG - Processing interval: 2.248390022675737 - 3.6774829931972786, label: NC
+2024-07-18 13:44:13,161 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,164 - DEBUG - Processing interval: 3.6774829931972786 - 4.184807256235827, label: MC
+2024-07-18 13:44:13,181 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,193 - DEBUG - Processing interval: 4.184807256235827 - 4.833492063492064, label: NC
+2024-07-18 13:44:13,234 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,250 - DEBUG - Processing interval: 4.833492063492064 - 5.632267573696145, label: NC
+2024-07-18 13:44:13,254 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,259 - DEBUG - Processing interval: 5.632267573696145 - 6.137777777777778, label: MC
+2024-07-18 13:44:13,267 - WARNING - Unrecognized label 'MC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,272 - DEBUG - Processing interval: 6.137777777777778 - 6.922063492063492, label: PC
+2024-07-18 13:44:13,355 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,360 - DEBUG - Processing interval: 6.922063492063492 - 12.505532879818594, label: NC
+2024-07-18 13:44:13,402 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,406 - DEBUG - Processing interval: 12.505532879818594 - 13.642517006802722, label: PC
+2024-07-18 13:44:13,420 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,424 - DEBUG - Processing interval: 13.642517006802722 - 16.27167800453515, label: NC
+2024-07-18 13:44:13,452 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,459 - DEBUG - Processing interval: 16.27167800453515 - 17.06759637188209, label: PC
+2024-07-18 13:44:13,475 - WARNING - Unrecognized label 'PC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,550 - DEBUG - Processing interval: 17.06759637188209 - 19.99238095238095, label: NC
+2024-07-18 13:44:13,555 - WARNING - Unrecognized label 'NC' in TextGrid. Skipping this interval.
+2024-07-18 13:44:13,572 - WARNING - No valid segments found in the TextGrid file.
+2024-07-18 13:44:13,577 - WARNING - No valid segments found. Skipping this file.
+2024-07-18 13:44:13,582 - ERROR - Error creating synthetic file 5: tuple index out of range
+2024-07-18 13:44:13,660 - INFO - Vocalization synthesis complete

@@ -1,0 +1,2 @@
+2024-07-15 17:23:35,420 - INFO - Starting vocalization synthesis program
+2024-07-15 17:23:35,421 - ERROR - Mismatched input files. Please ensure each WAV file has a corresponding TextGrid file.

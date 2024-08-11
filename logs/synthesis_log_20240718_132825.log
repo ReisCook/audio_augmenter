@@ -1,0 +1,8 @@
+2024-07-18 13:28:25,496 - INFO - Starting vocalization synthesis program
+2024-07-18 13:28:25,635 - INFO - Audio effects disabled
+2024-07-18 13:28:26,262 - ERROR - Error creating synthetic file 1: 'vocalizations'
+2024-07-18 13:28:27,005 - ERROR - Error creating synthetic file 2: 'vocalizations'
+2024-07-18 13:28:27,284 - ERROR - Error creating synthetic file 3: 'vocalizations'
+2024-07-18 13:28:28,120 - ERROR - Error creating synthetic file 4: 'vocalizations'
+2024-07-18 13:28:28,578 - ERROR - Error creating synthetic file 5: 'vocalizations'
+2024-07-18 13:28:29,160 - INFO - Vocalization synthesis complete

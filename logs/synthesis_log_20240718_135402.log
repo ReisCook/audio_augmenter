@@ -1,0 +1,39 @@
+2024-07-18 13:54:02,785 - INFO - Starting vocalization synthesis program
+2024-07-18 13:54:02,789 - DEBUG - Initialized SynthesisEngine with vocalization labels: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:54:02,912 - INFO - Audio effects disabled
+2024-07-18 13:54:03,218 - ERROR - Error in synthesize_single: 'SynthesisEngine' object has no attribute 'extract_segments'
+2024-07-18 13:54:03,367 - ERROR - Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 29, in synthesize_single
+    segments = self.extract_segments(textgrid_data, vocalization_labels, audio_data, original_sample_rate)
+AttributeError: 'SynthesisEngine' object has no attribute 'extract_segments'
+
+2024-07-18 13:54:03,372 - ERROR - Error creating synthetic file 1: tuple index out of range
+2024-07-18 13:54:03,604 - ERROR - Error in synthesize_single: 'SynthesisEngine' object has no attribute 'extract_segments'
+2024-07-18 13:54:03,620 - ERROR - Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 29, in synthesize_single
+    segments = self.extract_segments(textgrid_data, vocalization_labels, audio_data, original_sample_rate)
+AttributeError: 'SynthesisEngine' object has no attribute 'extract_segments'
+
+2024-07-18 13:54:03,640 - ERROR - Error creating synthetic file 2: tuple index out of range
+2024-07-18 13:54:03,832 - ERROR - Error in synthesize_single: 'SynthesisEngine' object has no attribute 'extract_segments'
+2024-07-18 13:54:03,910 - ERROR - Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 29, in synthesize_single
+    segments = self.extract_segments(textgrid_data, vocalization_labels, audio_data, original_sample_rate)
+AttributeError: 'SynthesisEngine' object has no attribute 'extract_segments'
+
+2024-07-18 13:54:03,932 - ERROR - Error creating synthetic file 3: tuple index out of range
+2024-07-18 13:54:04,239 - ERROR - Error in synthesize_single: 'SynthesisEngine' object has no attribute 'extract_segments'
+2024-07-18 13:54:04,266 - ERROR - Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 29, in synthesize_single
+    segments = self.extract_segments(textgrid_data, vocalization_labels, audio_data, original_sample_rate)
+AttributeError: 'SynthesisEngine' object has no attribute 'extract_segments'
+
+2024-07-18 13:54:04,272 - ERROR - Error creating synthetic file 4: tuple index out of range
+2024-07-18 13:54:04,521 - ERROR - Error in synthesize_single: 'SynthesisEngine' object has no attribute 'extract_segments'
+2024-07-18 13:54:04,523 - ERROR - Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 29, in synthesize_single
+    segments = self.extract_segments(textgrid_data, vocalization_labels, audio_data, original_sample_rate)
+AttributeError: 'SynthesisEngine' object has no attribute 'extract_segments'
+
+2024-07-18 13:54:04,524 - ERROR - Error creating synthetic file 5: tuple index out of range
+2024-07-18 13:54:04,525 - INFO - Vocalization synthesis complete

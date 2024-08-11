@@ -1,0 +1,26 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 20.01560090702948 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "(1280p_30fps_H264-192kbit_AAC)_segment_002" 
+        xmin = 0 
+        xmax = 20.01560090702948 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.369637188208617 
+            text = "N" 
+        intervals [2]:
+            xmin = 1.369637188208617 
+            xmax = 18.076916099773246 
+            text = "NC" 
+        intervals [3]:
+            xmin = 18.076916099773246 
+            xmax = 20.01560090702948 
+            text = "N" 

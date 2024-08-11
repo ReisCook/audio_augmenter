@@ -1,0 +1,5 @@
+numpy==1.21.5
+scipy==1.7.3
+praatio==5.1.1
+pydub==0.25.1
+soundfile==0.10.3.post1

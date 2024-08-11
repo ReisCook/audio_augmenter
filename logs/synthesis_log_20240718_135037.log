@@ -1,0 +1,198 @@
+2024-07-18 13:50:37,363 - INFO - Starting vocalization synthesis program
+2024-07-18 13:50:37,370 - DEBUG - Initialized SynthesisEngine with vocalization labels: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:50:37,550 - INFO - Audio effects disabled
+2024-07-18 13:50:37,916 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_000
+2024-07-18 13:50:37,941 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:50:38,000 - DEBUG - Processing interval: 0.0 - 0.3925664861413823, label: N
+2024-07-18 13:50:38,004 - DEBUG - Added segment with label: N
+2024-07-18 13:50:38,022 - DEBUG - Processing interval: 0.3925664861413823 - 1.1804985910221697, label: PC
+2024-07-18 13:50:38,068 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:38,085 - DEBUG - Processing interval: 1.1804985910221697 - 2.0024263038548753, label: N
+2024-07-18 13:50:38,089 - DEBUG - Added segment with label: N
+2024-07-18 13:50:38,124 - DEBUG - Processing interval: 2.0024263038548753 - 3.470426270831958, label: N
+2024-07-18 13:50:38,130 - DEBUG - Added segment with label: N
+2024-07-18 13:50:38,134 - DEBUG - Processing interval: 3.470426270831958 - 3.7259410430839, label: PC
+2024-07-18 13:50:38,137 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:38,187 - DEBUG - Processing interval: 3.7259410430839 - 4.4366666666666665, label: N
+2024-07-18 13:50:38,191 - DEBUG - Added segment with label: N
+2024-07-18 13:50:38,242 - DEBUG - Processing interval: 4.4366666666666665 - 5.267896385091254, label: PC
+2024-07-18 13:50:38,247 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:38,261 - DEBUG - Processing interval: 5.267896385091254 - 6.942517006802721, label: NC
+2024-07-18 13:50:38,264 - DEBUG - Added segment with label: NC
+2024-07-18 13:50:38,318 - DEBUG - Processing interval: 6.942517006802721 - 7.48421768707483, label: PC
+2024-07-18 13:50:38,367 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:38,372 - DEBUG - Processing interval: 7.48421768707483 - 8.31326530612245, label: NC
+2024-07-18 13:50:38,375 - DEBUG - Added segment with label: NC
+2024-07-18 13:50:38,447 - DEBUG - Processing interval: 8.31326530612245 - 9.03299319727891, label: PC
+2024-07-18 13:50:38,466 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:38,471 - DEBUG - Processing interval: 9.03299319727891 - 10.735918367346938, label: NC
+2024-07-18 13:50:38,502 - DEBUG - Added segment with label: NC
+2024-07-18 13:50:38,506 - DEBUG - Processing interval: 10.735918367346938 - 11.91390022675737, label: MC
+2024-07-18 13:50:38,510 - DEBUG - Added segment with label: MC
+2024-07-18 13:50:38,526 - DEBUG - Processing interval: 11.91390022675737 - 12.425283446712019, label: N
+2024-07-18 13:50:38,568 - DEBUG - Added segment with label: N
+2024-07-18 13:50:38,581 - DEBUG - Processing interval: 12.425283446712019 - 13.079160997732426, label: PC
+2024-07-18 13:50:38,591 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:38,678 - DEBUG - Processing interval: 13.079160997732426 - 14.783673469387756, label: NC
+2024-07-18 13:50:38,682 - DEBUG - Added segment with label: NC
+2024-07-18 13:50:38,686 - DEBUG - Processing interval: 14.783673469387756 - 15.31374149659864, label: N
+2024-07-18 13:50:38,708 - DEBUG - Added segment with label: N
+2024-07-18 13:50:38,712 - DEBUG - Processing interval: 15.31374149659864 - 15.855734044426836, label: PC
+2024-07-18 13:50:38,716 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:38,743 - DEBUG - Processing interval: 15.855734044426836 - 16.425351473922905, label: MC
+2024-07-18 13:50:38,791 - DEBUG - Added segment with label: MC
+2024-07-18 13:50:38,794 - DEBUG - Processing interval: 16.425351473922905 - 16.922834467120182, label: PC
+2024-07-18 13:50:38,808 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:38,822 - DEBUG - Processing interval: 16.922834467120182 - 20.01560090702948, label: NC
+2024-07-18 13:50:38,826 - DEBUG - Added segment with label: NC
+2024-07-18 13:50:38,898 - ERROR - Error in synthesize_single: All textgrid tiers much have a min and max duration
+2024-07-18 13:50:39,060 - ERROR - Traceback (most recent call last):
+  File "/home/reis/.conda/envs/chickens/lib/python3.10/site-packages/praatio/data_classes/interval_tier.py", line 78, in __init__
+    resolvedMinT = min(minTimeList)
+ValueError: min() arg is an empty sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 85, in synthesize_single
+    synthetic_textgrid = self.create_synthetic_textgrid(synthetic_intervals, file_length_seconds)
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 160, in create_synthetic_textgrid
+    tier = textgrid.IntervalTier('vocalizations', [])
+  File "/home/reis/.conda/envs/chickens/lib/python3.10/site-packages/praatio/data_classes/interval_tier.py", line 81, in __init__
+    raise errors.TimelessTextgridTierException()
+praatio.utilities.errors.TimelessTextgridTierException: All textgrid tiers much have a min and max duration
+
+2024-07-18 13:50:39,078 - ERROR - Error creating synthetic file 1: tuple index out of range
+2024-07-18 13:50:39,287 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_002
+2024-07-18 13:50:39,290 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:50:39,327 - DEBUG - Processing interval: 0.0 - 1.369637188208617, label: N
+2024-07-18 13:50:39,390 - DEBUG - Added segment with label: N
+2024-07-18 13:50:39,416 - DEBUG - Processing interval: 1.369637188208617 - 18.076916099773246, label: NC
+2024-07-18 13:50:39,420 - DEBUG - Added segment with label: NC
+2024-07-18 13:50:39,445 - DEBUG - Processing interval: 18.076916099773246 - 20.01560090702948, label: N
+2024-07-18 13:50:39,450 - DEBUG - Added segment with label: N
+2024-07-18 13:50:39,503 - ERROR - Error in synthesize_single: All textgrid tiers much have a min and max duration
+2024-07-18 13:50:39,603 - ERROR - Traceback (most recent call last):
+  File "/home/reis/.conda/envs/chickens/lib/python3.10/site-packages/praatio/data_classes/interval_tier.py", line 78, in __init__
+    resolvedMinT = min(minTimeList)
+ValueError: min() arg is an empty sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 85, in synthesize_single
+    synthetic_textgrid = self.create_synthetic_textgrid(synthetic_intervals, file_length_seconds)
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 160, in create_synthetic_textgrid
+    tier = textgrid.IntervalTier('vocalizations', [])
+  File "/home/reis/.conda/envs/chickens/lib/python3.10/site-packages/praatio/data_classes/interval_tier.py", line 81, in __init__
+    raise errors.TimelessTextgridTierException()
+praatio.utilities.errors.TimelessTextgridTierException: All textgrid tiers much have a min and max duration
+
+2024-07-18 13:50:39,629 - ERROR - Error creating synthetic file 2: tuple index out of range
+2024-07-18 13:50:39,871 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_002
+2024-07-18 13:50:39,876 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:50:39,901 - DEBUG - Processing interval: 0.0 - 0.7420181405895692, label: NC
+2024-07-18 13:50:39,916 - DEBUG - Added segment with label: NC
+2024-07-18 13:50:39,973 - ERROR - Error in synthesize_single: All textgrid tiers much have a min and max duration
+2024-07-18 13:50:40,058 - ERROR - Traceback (most recent call last):
+  File "/home/reis/.conda/envs/chickens/lib/python3.10/site-packages/praatio/data_classes/interval_tier.py", line 78, in __init__
+    resolvedMinT = min(minTimeList)
+ValueError: min() arg is an empty sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 85, in synthesize_single
+    synthetic_textgrid = self.create_synthetic_textgrid(synthetic_intervals, file_length_seconds)
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 160, in create_synthetic_textgrid
+    tier = textgrid.IntervalTier('vocalizations', [])
+  File "/home/reis/.conda/envs/chickens/lib/python3.10/site-packages/praatio/data_classes/interval_tier.py", line 81, in __init__
+    raise errors.TimelessTextgridTierException()
+praatio.utilities.errors.TimelessTextgridTierException: All textgrid tiers much have a min and max duration
+
+2024-07-18 13:50:40,075 - ERROR - Error creating synthetic file 3: tuple index out of range
+2024-07-18 13:50:40,395 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_000
+2024-07-18 13:50:40,412 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:50:40,447 - DEBUG - Processing interval: 0.0 - 0.3925664861413823, label: N
+2024-07-18 13:50:40,455 - DEBUG - Added segment with label: N
+2024-07-18 13:50:40,489 - DEBUG - Processing interval: 0.3925664861413823 - 1.1804985910221697, label: PC
+2024-07-18 13:50:40,528 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:40,533 - DEBUG - Processing interval: 1.1804985910221697 - 2.0024263038548753, label: N
+2024-07-18 13:50:40,582 - DEBUG - Added segment with label: N
+2024-07-18 13:50:40,605 - DEBUG - Processing interval: 2.0024263038548753 - 3.470426270831958, label: N
+2024-07-18 13:50:40,638 - DEBUG - Added segment with label: N
+2024-07-18 13:50:40,644 - DEBUG - Processing interval: 3.470426270831958 - 3.7259410430839, label: PC
+2024-07-18 13:50:40,649 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:40,655 - DEBUG - Processing interval: 3.7259410430839 - 4.4366666666666665, label: N
+2024-07-18 13:50:40,660 - DEBUG - Added segment with label: N
+2024-07-18 13:50:40,672 - DEBUG - Processing interval: 4.4366666666666665 - 5.267896385091254, label: PC
+2024-07-18 13:50:40,742 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:40,761 - DEBUG - Processing interval: 5.267896385091254 - 6.942517006802721, label: NC
+2024-07-18 13:50:40,765 - DEBUG - Added segment with label: NC
+2024-07-18 13:50:40,787 - DEBUG - Processing interval: 6.942517006802721 - 7.48421768707483, label: PC
+2024-07-18 13:50:40,792 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:40,821 - DEBUG - Processing interval: 7.48421768707483 - 8.31326530612245, label: NC
+2024-07-18 13:50:40,838 - DEBUG - Added segment with label: NC
+2024-07-18 13:50:40,856 - DEBUG - Processing interval: 8.31326530612245 - 9.03299319727891, label: PC
+2024-07-18 13:50:40,870 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:40,888 - DEBUG - Processing interval: 9.03299319727891 - 10.735918367346938, label: NC
+2024-07-18 13:50:40,894 - DEBUG - Added segment with label: NC
+2024-07-18 13:50:40,929 - DEBUG - Processing interval: 10.735918367346938 - 11.91390022675737, label: MC
+2024-07-18 13:50:41,005 - DEBUG - Added segment with label: MC
+2024-07-18 13:50:41,020 - DEBUG - Processing interval: 11.91390022675737 - 12.425283446712019, label: N
+2024-07-18 13:50:41,037 - DEBUG - Added segment with label: N
+2024-07-18 13:50:41,043 - DEBUG - Processing interval: 12.425283446712019 - 13.079160997732426, label: PC
+2024-07-18 13:50:41,082 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:41,129 - DEBUG - Processing interval: 13.079160997732426 - 14.783673469387756, label: NC
+2024-07-18 13:50:41,145 - DEBUG - Added segment with label: NC
+2024-07-18 13:50:41,181 - DEBUG - Processing interval: 14.783673469387756 - 15.31374149659864, label: N
+2024-07-18 13:50:41,199 - DEBUG - Added segment with label: N
+2024-07-18 13:50:41,243 - DEBUG - Processing interval: 15.31374149659864 - 15.855734044426836, label: PC
+2024-07-18 13:50:41,248 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:41,264 - DEBUG - Processing interval: 15.855734044426836 - 16.425351473922905, label: MC
+2024-07-18 13:50:41,324 - DEBUG - Added segment with label: MC
+2024-07-18 13:50:41,344 - DEBUG - Processing interval: 16.425351473922905 - 16.922834467120182, label: PC
+2024-07-18 13:50:41,369 - DEBUG - Added segment with label: PC
+2024-07-18 13:50:41,448 - DEBUG - Processing interval: 16.922834467120182 - 20.01560090702948, label: NC
+2024-07-18 13:50:41,494 - DEBUG - Added segment with label: NC
+2024-07-18 13:50:41,559 - ERROR - Error in synthesize_single: All textgrid tiers much have a min and max duration
+2024-07-18 13:50:41,633 - ERROR - Traceback (most recent call last):
+  File "/home/reis/.conda/envs/chickens/lib/python3.10/site-packages/praatio/data_classes/interval_tier.py", line 78, in __init__
+    resolvedMinT = min(minTimeList)
+ValueError: min() arg is an empty sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 85, in synthesize_single
+    synthetic_textgrid = self.create_synthetic_textgrid(synthetic_intervals, file_length_seconds)
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 160, in create_synthetic_textgrid
+    tier = textgrid.IntervalTier('vocalizations', [])
+  File "/home/reis/.conda/envs/chickens/lib/python3.10/site-packages/praatio/data_classes/interval_tier.py", line 81, in __init__
+    raise errors.TimelessTextgridTierException()
+praatio.utilities.errors.TimelessTextgridTierException: All textgrid tiers much have a min and max duration
+
+2024-07-18 13:50:41,653 - ERROR - Error creating synthetic file 4: tuple index out of range
+2024-07-18 13:50:41,880 - DEBUG - Processing tier: (1280p_30fps_H264-192kbit_AAC)_segment_002
+2024-07-18 13:50:41,906 - DEBUG - Vocalization labels from config: {'pc': 1.0, 'nc': 1.0, 'mc': 1.0, 'n': 1.0}
+2024-07-18 13:50:41,925 - DEBUG - Processing interval: 0.0 - 0.7420181405895692, label: NC
+2024-07-18 13:50:41,930 - DEBUG - Added segment with label: NC
+2024-07-18 13:50:42,042 - ERROR - Error in synthesize_single: All textgrid tiers much have a min and max duration
+2024-07-18 13:50:42,050 - ERROR - Traceback (most recent call last):
+  File "/home/reis/.conda/envs/chickens/lib/python3.10/site-packages/praatio/data_classes/interval_tier.py", line 78, in __init__
+    resolvedMinT = min(minTimeList)
+ValueError: min() arg is an empty sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 85, in synthesize_single
+    synthetic_textgrid = self.create_synthetic_textgrid(synthetic_intervals, file_length_seconds)
+  File "/bigdrive/chickens/data_augmentation/synthesis_engine.py", line 160, in create_synthetic_textgrid
+    tier = textgrid.IntervalTier('vocalizations', [])
+  File "/home/reis/.conda/envs/chickens/lib/python3.10/site-packages/praatio/data_classes/interval_tier.py", line 81, in __init__
+    raise errors.TimelessTextgridTierException()
+praatio.utilities.errors.TimelessTextgridTierException: All textgrid tiers much have a min and max duration
+
+2024-07-18 13:50:42,056 - ERROR - Error creating synthetic file 5: tuple index out of range
+2024-07-18 13:50:42,072 - INFO - Vocalization synthesis complete
